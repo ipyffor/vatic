@@ -3,9 +3,9 @@ sudo apt-get install -y git python-setuptools python-dev libavcodec-dev libavfor
 sudo easy_install -U SQLAlchemy wsgilog pil cython mysql-python munkres parsedatetime argparse
 sudo easy_install -U numpy
 
-git clone https://github.com/cvondrick/turkic.git
-git clone https://github.com/cvondrick/pyvision.git
-git clone https://github.com/cvondrick/vatic.git
+# git clone https://github.com/cvondrick/turkic.git
+# git clone https://github.com/cvondrick/pyvision.git
+# git clone https://github.com/cvondrick/vatic.git
 
 cd turkic
 sudo python setup.py install
